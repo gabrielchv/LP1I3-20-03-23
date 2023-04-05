@@ -9,7 +9,7 @@ public class TP02EX01
         System.out.println("Digite um valor maior que o primeiro: ");
         int num2 = Integer.parseInt(scanner.next());
         
-        while (num1 <= num2) {
+        while (num1 >= num2) {
             System.out.println("Digite novamente o segundo valor, maior que o primeiro: ");
             num2 = Integer.parseInt(scanner.next());
         }
