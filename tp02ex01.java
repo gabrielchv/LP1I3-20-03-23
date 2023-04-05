@@ -14,6 +14,6 @@ public class TP02EX01
             num2 = Integer.parseInt(scanner.next());
         }
         
-        System.out.println("Pronto, " + String.valueOf(num1) + " é maior que " + String.valueOf(num2));
+        System.out.println("Pronto, " + String.valueOf(num2) + " é maior que " + String.valueOf(num1));
     }
 }
